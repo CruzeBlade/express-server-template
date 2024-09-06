@@ -7,9 +7,15 @@ By default, it includes dependencies for MongoDB as the database.
 ## Usage
 
 1. Update `package.json` by replacing the placeholders for `name`, `version`, and `description`.
-2. Install all required dependencies by running `npm install`.
-3. Begin coding in the `src/main.ts` file.
-4. Start the server in development mode with `npm run dev`.
+2. Update git origin
+    ```bash
+    git remote remove origin
+    git remote add origin <url>
+    git push -u origin master
+    ```
+3. Install all required dependencies by running `npm install`.
+4. Begin coding in the `src/main.ts` file.
+5. Start the server in development mode with `npm run dev`.
 
 ## VS-Code Setup
 
