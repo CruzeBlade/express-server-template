@@ -5,4 +5,5 @@ dist/
 
 #Files
 .env
+.log
 package-lock.json

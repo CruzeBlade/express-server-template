@@ -1,4 +1,5 @@
 import express from 'express';
+import logger from './logger';
 import cors from 'cors';
 import 'dotenv/config';
 
@@ -11,5 +12,5 @@ app.use(express.json());
 app.use(cors());
 
 app.listen(PORT, HOST, () => {
-    console.log(`Server listening on http://${HOST}:${PORT}`);
+    logger.info(`Server listening on http://${HOST}:${PORT}`);
 });
